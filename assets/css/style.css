@@ -226,6 +226,69 @@ ul.about-list-icon  li a{
 }
 .hm-footer-copyright p a {color: #888ea5;}
 
+/* ---- Portfolio section Start --------- */
+.portfolio{
+	background:#f9f9f9;
+}
+
+.portfolio-container{
+	display:flex;
+	flex-direction: column;
+}
+
+.project{
+	height: 300px;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	width: 100%;
+}
+
+.project img {
+	width: 100%;
+}
+
+.project-overlay{
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	background: #FB937C;
+	height: 100%;
+	width: 100%; 
+	z-index: 1;
+	opacity: 0.2; 
+	cursor: pointer; 
+	transition: all 0.3s ease;
+}
+
+.project:hover .project-overlay{
+	opacity: 0.8;
+}
+
+.project-text {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2; 
+		height: 100%; 
+		width: 100%; 
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+
+.project-text h3{
+	font-size: 24px; 
+	margin-bottom: 16px;
+}
+
+.project-text h3, .project-text h4 {
+	color: #FFF;
+	font-weight: bold;
+}
+
+/* ---- Portfolio section End ----------- */
 .container{
 	padding: 0 16px;
 }
