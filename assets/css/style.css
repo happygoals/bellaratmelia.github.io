@@ -146,7 +146,7 @@ html,body{
 .single-about-txt h1 {
 	font-size: 48px;
 	font-weight: 600;
-	margin: 32px 0 16px 0;
+	margin: 2px 0 16px 0;
 }
 
 .single-about-txt h2 {
@@ -258,4 +258,16 @@ ul.about-list-icon  li a{
 .home{
 	width:100%;
 	background: #FAF9F6;
+}
+
+.section {
+	padding: 96px 0;
+}
+
+.page-heading{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px; 
+	position: relativ;
+	margin-bottom: 48px;
 }
