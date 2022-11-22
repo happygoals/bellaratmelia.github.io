@@ -136,7 +136,6 @@ html,body{
 /*=============Style css=========*/
 
 
-
 /*-------------------------------------
         4.  About
 --------------------------------------*/
@@ -145,9 +144,9 @@ html,body{
 /*.single-about-txt*/
 
 .single-about-txt h1 {
-	font-size: 44px;
+	font-size: 48px;
 	font-weight: 600;
-	padding-bottom: 24px;
+	margin: 32px 0 16px 0;
 }
 
 .single-about-txt h2 {
@@ -164,9 +163,10 @@ html,body{
 	margin-bottom: 10px;
 }
 .single-about-txt h4 {
-	color: #636a82;
+	color: #8684a0;
 	font-size: 14px;
 	padding-bottom: 8px;
+	margin-bottom: 20px;
 }
 .single-about-txt p {
     font-size: 15px;
@@ -226,7 +226,7 @@ ul.about-list-icon  li a{
 }
 .hm-footer-copyright p a {color: #888ea5;}
 
-.container2{
+.container{
 	padding: 0 16px;
 }
 
@@ -245,6 +245,14 @@ ul.about-list-icon  li a{
 .cta-btn{
 	background-color: #FB937C;
 	color: #FFF;
+}
+
+.btn {
+	padding: 8px 16px;
+	border-radius: 3px;
+	font-weight: 500;
+	cursor: pointer;
+	display: inline-block;
 }
 
 .home{
