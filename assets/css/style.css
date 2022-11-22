@@ -289,6 +289,25 @@ ul.about-list-icon  li a{
 }
 
 /* ---- Portfolio section End ----------- */
+/* -------------------------------------- */
+/* ---- Footer section Start ------------ */
+.footer{
+	background: #CCC;
+	text-align: center;
+}
+
+.footer h3{
+	color: #353535;
+	text-align: center;
+}
+
+.footer p {
+	color: #353535;
+	margin-top: 2%;
+	text-align: center;
+}
+/* ---- Footer section End -------------- */
+
 .container{
 	padding: 0 16px;
 }
