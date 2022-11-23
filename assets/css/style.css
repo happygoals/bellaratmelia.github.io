@@ -94,6 +94,13 @@ a,a:hover,a:active,a:focus {
 	text-decoration:none;
 	color: rgb(34, 141, 255);
 }
+
+
+a:hover{
+	text-decoration:underline;
+	color: rgb(34, 141, 255);
+}
+
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
 	color:#43485c;
@@ -141,8 +148,8 @@ html,body{
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
-.about-content {padding-top: 100px;}
+.about {padding: 30px 0 0px;}
+.about-content {padding-top: 50px;}
 /*.single-about-txt*/
 
 .single-about-txt h1 {
@@ -183,7 +190,7 @@ html,body{
 .single-about-contact-info h3 {
 	margin-top: 5%;
 	margin-bottom: 3%;
-    color: #636a82;
+    color: #51545d;
     font-size: 16px;
 }
 
@@ -192,6 +199,32 @@ html,body{
 	border:  0;
 	padding: 0;
 	margin-top: 5px;
+}
+
+.single-about-news-info{
+	background-color: #FFFFFF;
+	padding-left: 1%;
+}
+
+.single-about-news-info h3 {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color: #51545d;
+	font-size: 16px;
+	text-transform: none;
+}
+
+.single-about-news-info h4 {
+	margin-top: 1%;
+	margin-bottom: 0%;
+	color: #51545d;
+	font-size: 13px;
+	font-weight: 350;
+	text-transform: none;
+}
+
+.single-about-news-info b {
+	font-weight: 500;
 }
 /*.single-about-txt*/
 
@@ -235,14 +268,17 @@ ul.about-list-icon  li a{
 
 ul.about-list-icon li a.twitter:hover {
 	color: #00ACEE;
+	text-decoration: none;
 }
 
 ul.about-list-icon li a.linkedin:hover {
 	color: #0E76A8;
+	text-decoration: none;
 }
 
 ul.about-list-icon li a.gmail:hover {
 	color: #4285F4;
+	text-decoration: none;
 }
 
 /* ---- Portfolio section Start --------- */
@@ -253,6 +289,11 @@ ul.about-list-icon li a.gmail:hover {
 .portfolio-container{
 	display:flex;
 	flex-direction: column;
+}
+
+.portfolio-container a{
+	color:#353535;
+	font-weight: 400;
 }
 
 .project{
@@ -399,6 +440,7 @@ ul.about-list-icon li a.gmail:hover {
 	background-color: #CCC;
 	color: #fffffe;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .cv-btn2 {
@@ -413,6 +455,7 @@ ul.about-list-icon li a.gmail:hover {
 	background-color: #CCC;
 	color: #fffffe;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .btn {
