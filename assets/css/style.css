@@ -40,7 +40,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .header{
-	background:#f3f2ee;
+	background:#FAF9F6;
 	padding:16px 0;
 }
 
@@ -201,12 +201,13 @@ html,body{
 	margin-top: 5px;
 }
 
-.single-about-news-info{
+.single-about-updates-info{
 	background-color: #FFFFFF;
-	padding-left: 1%;
+	padding-left: 2%;
+	padding-right: 1%;
 }
 
-.single-about-news-info h3 {
+.single-about-updates-info h3 {
 	margin-top: 1%;
 	margin-bottom: 1%;
 	color: #51545d;
@@ -214,16 +215,16 @@ html,body{
 	text-transform: none;
 }
 
-.single-about-news-info h4 {
+.single-about-updates-info h4 {
 	margin-top: 1%;
-	margin-bottom: 0%;
+	margin-bottom: 1%;
 	color: #51545d;
 	font-size: 13px;
 	font-weight: 350;
 	text-transform: none;
 }
 
-.single-about-news-info b {
+.single-about-updates-info b {
 	font-weight: 500;
 }
 /*.single-about-txt*/
@@ -367,7 +368,7 @@ ul.about-list-icon li a.gmail:hover {
 /* -------------------------------------- */
 /* ---- Footer section Start ------------ */
 .footer{
-	background: #f3f2ee;
+	background: #FAF9F6;
 	text-align: center;
 }
 
