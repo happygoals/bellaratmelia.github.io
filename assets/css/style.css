@@ -90,9 +90,9 @@ body{
 	overflow-x:hidden;
 }
 
-a,a:hover,a:active,a:focus {
-	text-decoration:none;
-	color: rgb(34, 141, 255);
+a,a:active,a:focus {
+	text-decoration:underline;
+	color: rgb(82, 82, 82);
 }
 
 
@@ -159,13 +159,15 @@ html,body{
 }
 
 .single-about-txt h2 {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
+	color: #a65900;
     padding-bottom: 20px;
+	text-transform: none;
 }
 
 .single-about-txt h3 {
-    font-size:16px;
+    font-size:14px;
     color: #3c4258;
     text-transform: initial;
     line-height: 1.8;
@@ -174,13 +176,13 @@ html,body{
 .single-about-txt h4 {
 	color: #8684a0;
 	font-size: 14px;
-	padding-bottom: 8px;
+	padding-bottom: 3%;
 	margin-bottom: 20px;
 }
 .single-about-txt p {
     font-size: 15px;
     color: #484d5e;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 	font-weight: 400;
 }
 .single-about-contact-info {
@@ -240,6 +242,30 @@ html,body{
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+/*.single-about-interests*/
+.single-about-interests {
+	padding-top: 1%;
+	border: 0.5px solid #002c8d;
+	background-color: #c6d2ec15;
+	margin-bottom:2%;
+	margin-right: 5%;
+	padding-left: 2%;
+}
+
+.single-about-interests h4 {
+	font-size: 13px;
+	font-weight: 500;
+	color: #002c8d;
+	padding-bottom: 2.5%;
+	text-transform: none;
+}
+
+.single-about-interests h2{
+	margin-bottom: 3%;
+	color: #51545d;
+	font-size: 13px;
+}
+
 /*.about-list-icon */
 .contact-info {
     border-top: 1px solid #efefef;
@@ -265,6 +291,7 @@ ul.about-list-icon li p a{
 ul.about-list-icon  li a{
 	font-size: 24px;
 	color: #676a81;
+	text-decoration: none;
 }
 
 ul.about-list-icon li a.twitter:hover {
@@ -433,7 +460,7 @@ ul.about-list-icon li a.gmail:hover {
 	padding: 8px 16px;
 	background-color: #6246EA;
 	color: #fffffe;
-	margin-top: 3%;
+	margin-top: 2%;
 }
 
 .cv-btn:hover {
@@ -448,7 +475,7 @@ ul.about-list-icon li a.gmail:hover {
 	padding: 8px 16px;
 	background-color: #4649ea;
 	color: #fffffe;
-	margin-top: 3%;
+	margin-top: 2%;
 }
 
 .cv-btn2:hover {
