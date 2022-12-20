@@ -417,6 +417,7 @@ ul.about-list-icon li a.gmail:hover {
 	text-transform: capitalize;
 	padding: 38px 0;
 	font-size: 0.75em;
+	text-align: left;
 }
 
 .hm-footer-copyright p a {
