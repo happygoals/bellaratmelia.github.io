@@ -39,47 +39,6 @@ font-family: 'Poppins', sans-serif;
 	box-sizing:border-box;
 }
 
-.header{
-	background:#FAF9F6;
-	padding:16px 0;
-}
-
-.header > div{
-	display: flex;
-	flex-direction: column;
-}
-
-.header > div > div{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between; 
-	align-items: center;
-}
-
-nav{
-	display:flex;
-	flex-direction: column;
-}
-
-nav a{
-	color: #353535;
-	background-color: #FFF;
-	padding: 8px 16px; 
-	border-radius: 3px;
-	text-transform: uppercase;
-	cursor: pointer; 
-	font-weight: bold; 
-	margin-top: 16px;
-}
-
-nav a:hover{
-	background-color: #d4d3cf;
-	text-transform: uppercase;
-	color:#FFF;
-	margin-top: 16px;
-	padding: 8px 16px;
-}
-
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
@@ -115,7 +74,11 @@ p {
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
 }
-img{border:none;max-width:100%; height:auto;}
+img{
+	border:none;
+	width:100%; 
+	height:auto;}
+
 ul{
 	padding: 0;
     margin: 0 auto;
@@ -144,6 +107,13 @@ html,body{
 .fix{position: relative;clear: both;}
 /*=============Style css=========*/
 
+.d-flex {
+	display:flex;
+}
+
+.d-none {
+	display:none;
+}
 
 /*-------------------------------------
         4.  About
@@ -310,6 +280,7 @@ ul.about-list-icon li a.gmail:hover {
 	text-decoration: none;
 }
 
+/* ---- About section End --------- */
 /* ---- Portfolio section Start --------- */
 .portfolio{
 	background:#f9f9f9;
@@ -326,11 +297,14 @@ ul.about-list-icon li a.gmail:hover {
 }
 
 .project{
-	height: 300px;
+	height: 20%;
+	max-height: 300px;
 	position: relative;
 	cursor: pointer;
 	overflow: hidden;
-	width: 100%;
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 0.5%;
 }
 
 .project img {
@@ -352,19 +326,20 @@ ul.about-list-icon li a.gmail:hover {
 
 .project:hover .project-overlay{
 	opacity: 0.8;
+	
 }
 
 .project-text {
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 2; 
-		height: 100%; 
-		width: 100%; 
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		/* align-items: center; */
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2; 
+	height: 100%; 
+	width: 100%; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: center; */
 }
 
 .project-text h3{
@@ -426,30 +401,83 @@ ul.about-list-icon li a.gmail:hover {
 
 /* ---- Footer section End -------------- */
 
-.container{
-	padding: 0 16px;
+
+/* ---- home page start ----- */
+
+.home{
+	width:100%;
+	background: #FAF9F6;
 }
 
-.logo{
+.header {
+	background: #FAF9F6;
+	padding: 16px 0;
+}
+
+.header>div {
+	display: flex;
+	flex-direction: column;
+}
+
+.header>div>div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
 	color: #6246EA;
 	font-size: 32px;
 }
 
-.logoimage {
-	width:30px;
-	height:30px;
+.container {
+	padding: 0 12px;
 }
 
-.logoimage:hover{
+.logoimage {
+	width: 30px;
+	height: 30px;
+}
+
+.logoimage:hover {
 	width: 25px;
 	height: 25px;
 }
 
-.menu{
-	color:#acabc2;
+.menu {
+	color: #acabc2;
 	font-size: 32px;
 	display: block;
 	cursor: pointer;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+nav a {
+	color: #353535;
+	background-color: #FFF;
+	padding: 8px 16px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold;
+	margin-top: 16px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFF;
+	background-color: #d4d3cf;
+	/* padding: 8px 16px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 16px; */
+	text-decoration: none;
 }
 
 .cta-btn {
@@ -458,7 +486,7 @@ ul.about-list-icon li a.gmail:hover {
 	color: #fffffe;
 }
 
-.cv-btn{
+.cv-btn {
 	padding: 8px 16px;
 	background-color: #6246EA;
 	color: #fffffe;
@@ -495,11 +523,6 @@ ul.about-list-icon li a.gmail:hover {
 	cursor: pointer;
 	display: inline-block;
 	text-transform: uppercase;
-}
-
-.home{
-	width:100%;
-	background: #FAF9F6;
 }
 
 .section {
