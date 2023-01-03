@@ -576,7 +576,7 @@ ul.about-list-icon li a.gmail:hover {
 }
 
 .back-to-page p {
-	font-size: 15px;
+	font-size: 20px;
 	color: #484d5e;
 	padding-bottom: 5px;
 	font-weight: 400;
@@ -596,7 +596,7 @@ nav {
 
 nav a {
 	color: #353535;
-	background-color: #FFF;
+	background-color: #FAF9F6;
 	padding: 8px 16px;
 	border-radius: 3px;
 	text-transform: uppercase;
