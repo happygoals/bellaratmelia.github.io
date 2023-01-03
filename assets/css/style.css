@@ -115,6 +115,15 @@ html,body{
 	display:none;
 }
 
+a.github {
+	font-size: 30px;
+}
+
+a.github:hover {
+	color: #4078c0;
+	text-decoration: none;
+}
+
 /*-------------------------------------
         4.  About
 --------------------------------------*/
@@ -344,7 +353,7 @@ ul.about-list-icon li a.gmail:hover {
 
 .project-text h3{
 	font-size: 36px; 
-	margin-bottom: 16px;
+	margin-bottom: 1px;
 	font-weight: 600;
 }
 
@@ -361,13 +370,119 @@ ul.about-list-icon li a.gmail:hover {
 	text-transform: none;
 }
 
-.project-text h3, .project-text h4, .project-text p {
+.project-text h5 {
+	font-size: 24px;
+	margin-bottom: 16px;
+	font-weight: 600;
+}
+
+.project-text h3, .project-text h4, .project-text h5, .project-text p {
 	color: #FFF;
 	text-align: left;
 	margin-left: 10%;
 }
 
+.project-content {
+	margin-top: 5%;
+}
+
+.project-content h1 {
+	font-size: 36px;
+	font-weight: 600;
+	margin: 2px 0 16px 0;
+}
+
+.project-content h2 {
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: none;
+}
+
+.project-content h3 {
+	font-family: 'Arial', sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	text-transform: none;
+}
+
+.project-content h4 {
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Arial', sans-serif;
+	margin: 1%;
+	text-transform: none;
+}
+
+.project-content h5 {
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Arial', sans-serif;
+	margin: 1%;
+	text-transform: none;
+}
+
+.project-content h6 {
+	font-size: 14px;
+	font-weight: 200;
+	font-family: 'Arial', sans-serif;
+	margin: 1%;
+	text-transform: none;
+}
+
+.project-desc {
+	margin: 50px auto; 
+}
 /* ---- Portfolio section End ----------- */
+
+/* ---- navigation ------*/
+
+.navigation-highlight {
+	background-color: #002c8d;
+	padding: 2%;
+}
+
+.navigation-highlight .project-content h1 {
+	color:#ffffff;
+	text-transform: none;
+}
+
+.navigation-highlight .project-content h2 {
+	color: #ffffff;
+}
+.navigation-highlight .project-content h3 {
+	color: #ffffff;
+}
+.navigation-highlight .project-content h4 {
+	color: #ffffff;
+}
+.navigation-highlight .project-content h5 {
+	color: #ffffff;
+}
+.navigation-highlight .project-content h6 {
+	color: #ffffff;
+}
+
+.navigation-content {
+	background-color: #e8efff;
+	padding: 1%;
+}
+
+.navigation-content2 {
+	background-color: #f7f9ff;
+	padding: 1%;
+}
+
+.navigation-content3 {
+	background-color: #e8efff;
+	padding: 2%;
+}
+
+/* ---- Hiking Start ------ */
+.hiking-content {
+	margin-top: 4%;
+}
+/* ---- Hiking End ------ */
+
 /* -------------------------------------- */
 /* ---- Footer section Start ------------ */
 .footer{
@@ -435,6 +550,21 @@ ul.about-list-icon li a.gmail:hover {
 	padding: 0 12px;
 }
 
+.logo-container {
+	padding: 0 30px;
+}
+
+.logo-container a {
+	padding: 20px 15px;
+	color: #353535;
+	font-weight: 600;
+	font-size:x-large;
+}
+
+.back-to-container {
+	padding: 50px 90px;
+}
+
 .logoimage {
 	width: 30px;
 	height: 30px;
@@ -443,6 +573,13 @@ ul.about-list-icon li a.gmail:hover {
 .logoimage:hover {
 	width: 25px;
 	height: 25px;
+}
+
+.back-to-page p {
+	font-size: 15px;
+	color: #484d5e;
+	padding-bottom: 5px;
+	font-weight: 400;
 }
 
 .menu {

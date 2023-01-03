@@ -203,7 +203,7 @@
     }
 
     .project {
-        height: 200px;
+        height: 250px;
         width: 50%;
     }
 
@@ -216,7 +216,7 @@
 
     .project-text h3 {
         font-size: 24px;
-        margin-bottom: 12px;
+        margin-bottom: 8px;
         margin-right: 12px;
         margin-left: 20px;
         font-weight: 600;
@@ -230,6 +230,20 @@
         font-weight: 400;
         color: rgb(255, 255, 255);
         text-transform: none;
+    }
+
+    .project-text h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .project-text h3,
+    .project-text h4,
+    .project-text h5,
+    .project-text p {
+        color: #FFF;
+        text-align: left;
+        margin-left: 5%;
     }
 
     nav {
