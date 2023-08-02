@@ -297,7 +297,7 @@ ul.about-list-icon li a.gmail:hover {
 	background-size: 300px;
 	width: 300px;
 	height: 464.67px;
-	transition: background 0.25s ease-in-out;
+	 /* transition: background 0.25s ease-in-out;*/
  }
  
  #Projects-carousel-flowtotype:hover {
@@ -312,7 +312,7 @@ ul.about-list-icon li a.gmail:hover {
 	background-size: 300px;
 	width: 300px;
 	height: 464.67px;
-	transition: background 0.25s ease-in-out;
+ /* transition: background 0.25s ease-in-out;*/
  }
  
  #Projects-carousel-gratreat:hover {
